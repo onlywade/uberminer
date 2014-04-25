@@ -1,8 +1,7 @@
-require 'rubygems'
 require 'rubygame'
 
-require 'cell'
-require 'custom_events'
+require_relative './cell.rb'
+require_relative './custom_events.rb'
 
 include Rubygame
 

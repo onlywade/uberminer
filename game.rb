@@ -1,8 +1,7 @@
-require 'rubygems'
 require 'rubygame'
 
-require 'map'
-require 'player'
+require_relative './map.rb'
+require_relative './player.rb'
 
 include Rubygame
 include Rubygame::Events
